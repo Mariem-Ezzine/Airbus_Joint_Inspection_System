@@ -31,8 +31,6 @@ It integrates:
 ---
 
 ### 🧩 System Architecture
-
-```mermaid
 graph TD
 A[Camera (FLIR/IP)] --> B[Python OpenCV Pipeline]
 B --> C[Feature Extraction: Holes, Chamfers, Curves]
