@@ -1,7 +1,7 @@
 # 🛠️ Airbus Joint Inspection System
 
 ### 🔍 Overview
-This project was developed at **SAMM Test & Automation** as part of my Engineering Thesis at **ENSIT (Ecole Nationale Supérieure d’Ingénieurs de Tunis)**.  
+This project was developed at **SAMM Test & Automation** as part of my Engineering Thesis at **ENSIT (Ecole Nationale Supérieure d’Ingénieurs de Tunis)**. 
 It focuses on **real-time visual inspection of aircraft joints for Airbus**, using **computer vision** and **industrial automation** technologies.
 
 The goal was to design an open, flexible, and maintainable system to replace a closed and expensive Cognex camera, while maintaining industrial-grade precision.
