@@ -82,4 +82,4 @@ Mariem Ezzine
 Electrical Engineer — Computer Vision & Embedded Systems
 📧 mariemezzine8@gmail.com
 
-🔗 LinkedIn
+🔗 LinkedIn : www.linkedin.com/in/mariem-ezzine
