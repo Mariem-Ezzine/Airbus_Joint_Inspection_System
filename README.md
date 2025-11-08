@@ -1,6 +1,6 @@
-# 🛠️ Airbus Joint Inspection System
+# Airbus Joint Inspection System
 
-### 🔍 Overview
+### Overview
 This project was developed at **SAMM Test & Automation** as part of my Engineering Thesis at **ENSIT (Ecole Nationale Supérieure d’Ingénieurs de Tunis)**. 
 It focuses on **real-time visual inspection of aircraft joints for Airbus**, using **computer vision** and **industrial automation** technologies.
 
@@ -8,14 +8,14 @@ The goal was to design an open, flexible, and maintainable system to replace a c
 
 ---
 
-### ⚙️ System Description
+### System Description
 
 The system performs **automatic inspection** of Airbus joint parts to detect:
 
-- 🔴 **Holes** (using contour and circular detection)
-- 🟢 **Chamfers** (via angle analysis)
-- 🔵 **Curvatures** (based on contour geometry)
-- 🟡 **OCR text** (using PaddleOCR for low-contrast green-on-blue text)
+- **Holes** (using contour and circular detection)
+- **Chamfers** (via angle analysis)
+- **Curvatures** (based on contour geometry)
+- **OCR text** (using PaddleOCR for low-contrast green-on-blue text)
 
 It integrates:
 
@@ -30,7 +30,7 @@ It integrates:
 
 ---
 
-### 🧩 System Architecture
+### System Architecture
 graph TD
 A[Camera (FLIR/IP)] --> B[Python OpenCV Pipeline]
 B --> C[Feature Extraction: Holes, Chamfers, Curves]
@@ -40,11 +40,11 @@ D --> E
 E --> F[Festo PLC via TCP/IP]
 B --> G[Tkinter GUI]
 
-🖥️ Graphical Interface
+Graphical Interface
 Main GUI	Detection Results
 
 	
-🧠 Key Achievements
+Key Achievements
 
 ✅ Real-time image processing with OpenCV
 ✅ OCR of low-contrast alphanumeric codes
@@ -52,7 +52,7 @@ Main GUI	Detection Results
 ✅ MySQL traceability of inspections
 ✅ Professional Tkinter GUI for operator interaction
 
-📊 Industrial Context
+Industrial Context
 
 Company: SAMM Test & Automation
 
@@ -62,11 +62,11 @@ Project Type: Automated visual inspection for aerospace parts
 
 Environment: Python 3.8, MySQL, Codesys, FLIR camera
 
-🧰 Technologies Used
+Technologies Used
 
 Python · OpenCV · PaddleOCR · MySQL · Tkinter · TCP/IP · PySpin · CODESYS · Festo PLC
 
-📄 Project Origin
+Project Origin
 
 This work was conducted as part of my final-year engineering project (2025), supervised by
 Mr. Karim Aouadi (SAMM Test & Automation) and Mr. Faouzi Benzarti (ENSIT).
@@ -74,7 +74,7 @@ Mr. Karim Aouadi (SAMM Test & Automation) and Mr. Faouzi Benzarti (ENSIT).
 The detailed technical report and source code remain private due to industrial confidentiality,
 but a summary can be provided upon request.
 
-👩‍💻 Author
+Author
 
 Mariem Ezzine
 Electrical Engineer — Computer Vision & Embedded Systems
